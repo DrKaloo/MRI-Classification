@@ -157,8 +157,8 @@ flowchart TD
 ## Installation
 
 ```bash
-git clone https://github.com/DrKaloo/MRICode.git
-cd MRICode
+git clone https://github.com/DrKaloo/MRI-Classification.git
+cd MRI-Classification
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
