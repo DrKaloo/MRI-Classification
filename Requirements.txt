@@ -1,0 +1,18 @@
+# Install torch/torchvision matching your CUDA build from https://pytorch.org/get-started/locally/
+# before installing this file, particularly on recent GPUs where the default
+# PyPI wheel may not carry the required compute capability.
+ 
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3
+nibabel>=5.1
+matplotlib>=3.7
+tqdm>=4.65
+ 
+# Optional: only required by build_adni_labels.py when reading R-format
+# (.rda / .RData) ADNI tables rather than CSV exports.
+# pyreadr>=0.5
+ 
