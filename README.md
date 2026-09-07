@@ -54,7 +54,7 @@ Correcting this at evaluation, from image header metadata alone, raised cross-co
 Three source image domains reach the network, and no two share an axis order. OASIS-1 stores L, A, S; OASIS-2 stores A, S, L; ADNI stores I, P, L. No stage in the original pipeline reoriented volumes to a canonical order, so each array arrived in the order stored in its own file.
 
 <div align="center">
-<img src="![Source domains](source_domains.png)" alt="Representative mid-slices from the three source image domains before canonical reorientation" width="820">
+<img src="source_domains.png" alt="Representative mid-slices from the three source image domains before canonical reorientation" width="820">
 </div>
 
 <sub>**Figure 1.** Representative mid-slices from the three source image domains before canonical reorientation. Because the source arrays use different axis orders, the displayed mid-slice corresponds to a different anatomical plane in each panel. Skull and scalp retention also differs by source: OASIS-1 arrives Talairach-88 registered and skull-stripped, OASIS-2 and ADNI arrive in native space with the skull intact.</sub>
